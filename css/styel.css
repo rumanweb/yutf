@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#admin-box {
+    width:50%;
+    margin:100px auto ;
+    background-color:lightyellow;
+    text-align: center;
+    border-radius:15px ;
+    transition: ease 0.5s;
+}
+
+#admin-box > img {
+width:75px ;
+
+}
+
+#admin-box h1 {
+    width:100%;
+    font-size:25px ;
+    line-height:25px ;
+    margin:10px auto ;
+}
+
+::placeholder{
+    color: black;
+}
+
+.font {
+    font-size:18px ;
+
+}
+
+form input{
+    border:1px solid ;
+}
+
+label{
+    margin: auto;
+}
+
+input[type="sumbit"] {
+    width:30% ;
+    font-size:17px ;
+    margin:5px auto ;
+    text-transform: capitalize;
+    transition: ease-in-out 0.5s;
+    
+    
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color:yellow ;
+    cursor: pointer;
+    
+}
+ 
+
+a :active {
+    color: black;
+    background-color: darkred;
+}
+
+.pg a {
+    text-decoration: none;
+    color: red;
+    text-transform: capitalize;
+    
+}
+
+h1{
+    font-size:20px ;
+    color: black;
+}
+
+#admin-box:hover {
+box-shadow:0px 0px 10px black ;
+}
+
+p{
+    color:black;
+}
+
+
+
+     
+
+
+
+  
